@@ -1,0 +1,67 @@
+manufacturer,model,generation,club_type,flex,weight,length,torque,launch,spin,butt_diameter,tip_diameter,tip_stiff,kickpoint,material,msrp
+Project X,HZRDUS Black,Gen 4,driver,Stiff,62,46,3.5,Low,Low,0.620,0.335,Firm,Mid,graphite,350
+Project X,HZRDUS Black,Gen 4,driver,X-Stiff,63,46,3.3,Low,Low,0.620,0.335,Very Firm,Mid,graphite,350
+Project X,HZRDUS Black,Gen 4,driver,TX,65,46,3.1,Low,Low,0.620,0.335,Very Firm,Mid,graphite,350
+Project X,HZRDUS Smoke Black,RDX,driver,Stiff,60,46,3.6,Low,Low,0.620,0.335,Firm,Mid,graphite,350
+Project X,HZRDUS Smoke Black,RDX,driver,X-Stiff,62,46,3.4,Low,Low,0.620,0.335,Very Firm,Mid,graphite,350
+Project X,HZRDUS Smoke Red,RDX,driver,Regular,55,46,4.2,Mid-High,Mid-High,0.620,0.335,Soft,Low,graphite,350
+Project X,HZRDUS Smoke Red,RDX,driver,Stiff,57,46,3.9,Mid,Mid,0.620,0.335,Medium,Low,graphite,350
+Project X,HZRDUS Smoke Green,RDX,driver,Stiff,60,46,3.8,Mid,Low-Mid,0.620,0.335,Firm,Mid-High,graphite,350
+Project X,HZRDUS Smoke Green,RDX,driver,X-Stiff,62,46,3.5,Mid,Low,0.620,0.335,Firm,Mid-High,graphite,350
+Project X,EvenFlow Riptide,6.0,driver,Stiff,62,46,3.4,Mid,Mid,0.620,0.335,Medium,Mid,graphite,300
+Project X,EvenFlow Riptide,6.0,driver,X-Stiff,64,46,3.2,Low-Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,300
+Project X,EvenFlow Riptide,7.0,driver,Stiff,72,46,2.9,Low-Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,300
+Project X,Cypher,40,driver,Ladies,42,46,5.8,High,High,0.600,0.335,Soft,Low,graphite,300
+Project X,Cypher,50,driver,Regular,52,46,4.5,Mid-High,Mid-High,0.610,0.335,Medium,Low-Mid,graphite,300
+Fujikura,Ventus Blue,TR,driver,Stiff,65,46,3.2,Low-Mid,Low,0.620,0.335,Firm,Mid-High,graphite,350
+Fujikura,Ventus Blue,TR,driver,X-Stiff,67,46,3.0,Low,Low,0.620,0.335,Very Firm,Mid-High,graphite,350
+Fujikura,Ventus Blue,TR,driver,TX,69,46,2.8,Low,Low,0.620,0.335,Very Firm,Mid-High,graphite,350
+Fujikura,Ventus Black,TR,driver,Stiff,65,46,3.0,Low,Low,0.620,0.335,Very Firm,High,graphite,350
+Fujikura,Ventus Black,TR,driver,X-Stiff,67,46,2.8,Low,Low,0.620,0.335,Very Firm,High,graphite,350
+Fujikura,Ventus Red,TR,driver,Regular,55,46,4.5,High,Mid-High,0.620,0.335,Soft,Low,graphite,350
+Fujikura,Ventus Red,TR,driver,Stiff,57,46,4.1,Mid-High,Mid,0.620,0.335,Medium,Low,graphite,350
+Fujikura,Speeder NX Green,60,driver,Stiff,63,46,3.5,Mid,Mid,0.620,0.335,Medium,Mid,graphite,300
+Fujikura,Speeder NX Green,70,driver,Stiff,73,46,3.0,Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,300
+Fujikura,Speeder NX Black,60,driver,Stiff,63,46,3.3,Low-Mid,Low-Mid,0.620,0.335,Firm,Mid-High,graphite,300
+Fujikura,Speeder NX Black,70,driver,Stiff,72,46,2.8,Low,Low,0.620,0.335,Firm,Mid-High,graphite,300
+Mitsubishi,Tensei AV Blue,1K,driver,Stiff,65,46,3.3,Mid,Low-Mid,0.620,0.335,Firm,Mid-High,graphite,350
+Mitsubishi,Tensei AV Blue,1K,driver,X-Stiff,67,46,3.1,Low-Mid,Low,0.620,0.335,Very Firm,Mid-High,graphite,350
+Mitsubishi,Tensei AV White,1K,driver,Regular,55,46,4.8,High,Mid-High,0.615,0.335,Soft,Low,graphite,350
+Mitsubishi,Tensei AV White,1K,driver,Stiff,65,46,3.6,Mid-High,Mid,0.620,0.335,Medium,Low-Mid,graphite,350
+Mitsubishi,Tensei AV Orange,1K,driver,Stiff,55,46,4.2,Mid,Mid,0.615,0.335,Medium,Mid,graphite,350
+Mitsubishi,Tensei AV Orange,1K,driver,X-Stiff,57,46,3.9,Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,350
+Mitsubishi,Kai'li White,60,driver,Stiff,63,46,3.7,Mid-High,Mid,0.620,0.335,Medium,Low-Mid,graphite,350
+Mitsubishi,Kai'li White,70,driver,Stiff,73,46,3.2,Mid,Low-Mid,0.620,0.335,Firm,Low-Mid,graphite,350
+Mitsubishi,Kai'li Blue,60,driver,Stiff,63,46,3.4,Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,350
+Mitsubishi,Kai'li Blue,70,driver,Stiff,73,46,2.9,Low-Mid,Low,0.620,0.335,Very Firm,Mid,graphite,350
+Graphite Design,Tour AD DI,6,driver,Stiff,66,46,3.1,Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,400
+Graphite Design,Tour AD DI,7,driver,Stiff,76,46,2.7,Low-Mid,Low,0.620,0.335,Very Firm,Mid,graphite,400
+Graphite Design,Tour AD UB,6,driver,Stiff,65,46,3.3,Mid-High,Mid,0.620,0.335,Medium,Low-Mid,graphite,400
+Graphite Design,Tour AD UB,6,driver,X-Stiff,67,46,3.0,Mid,Low-Mid,0.620,0.335,Firm,Low-Mid,graphite,400
+Graphite Design,Tour AD CQ,6,driver,Stiff,66,46,3.2,Mid,Mid,0.620,0.335,Firm,Mid,graphite,400
+Aldila,Ascent Blue,60,driver,Stiff,64,46,3.4,Mid,Mid,0.620,0.335,Medium,Mid,graphite,200
+Aldila,Ascent Blue,60,driver,X-Stiff,66,46,3.2,Low-Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,200
+Aldila,Ascent Red,60,driver,Regular,57,46,4.0,Mid-High,Mid-High,0.615,0.335,Soft,Low-Mid,graphite,200
+Aldila,Ascent Red,60,driver,Stiff,62,46,3.6,Mid,Mid,0.620,0.335,Medium,Low-Mid,graphite,200
+UST Mamiya,LIN-Q Blue,M60,driver,Stiff,62,46,3.5,Mid,Low-Mid,0.620,0.335,Firm,Mid,graphite,275
+UST Mamiya,LIN-Q Blue,M70,driver,Stiff,72,46,3.0,Low-Mid,Low,0.620,0.335,Very Firm,Mid,graphite,275
+UST Mamiya,LIN-Q Red,M50,driver,Regular,54,46,4.6,High,Mid-High,0.610,0.335,Soft,Low,graphite,275
+UST Mamiya,LIN-Q Red,M60,driver,Stiff,62,46,3.7,Mid-High,Mid,0.620,0.335,Medium,Low-Mid,graphite,275
+UST Mamiya,Helium,4F2,driver,Regular,49,46,5.2,High,High,0.600,0.335,Soft,Low,graphite,200
+UST Mamiya,Helium,5F4,driver,Stiff,59,46,3.9,Mid,Mid,0.615,0.335,Medium,Mid,graphite,200
+True Temper,Dynamic Gold,120,iron,Stiff,120,,,Mid,Mid,0.600,0.370,,Mid,steel,45
+True Temper,Dynamic Gold,120,iron,X-Stiff,130,,,Low-Mid,Low-Mid,0.600,0.370,,Mid,steel,45
+True Temper,Dynamic Gold Mid,115,iron,Stiff,115,,,Mid,Mid,0.600,0.370,,Mid,steel,45
+True Temper,Project X,6.0,iron,Stiff,118,,,Mid,Low-Mid,0.600,0.370,,Mid-High,steel,42
+True Temper,Project X,6.5,iron,X-Stiff,125,,,Low-Mid,Low,0.600,0.370,,Mid-High,steel,42
+True Temper,Project X LZ,5.5,iron,Regular,108,,,Mid-High,Mid-High,0.600,0.370,,Low-Mid,steel,42
+True Temper,Project X LZ,6.0,iron,Stiff,118,,,Mid,Mid,0.600,0.370,,Low-Mid,steel,42
+Nippon,N.S. Pro Modus3 Tour,120,iron,Stiff,118,,,Mid,Low-Mid,0.600,0.370,,Mid-High,steel,42
+Nippon,N.S. Pro Modus3 Tour,130,iron,X-Stiff,130,,,Low,Low,0.600,0.370,,High,steel,42
+Nippon,N.S. Pro Modus3 105,105,iron,Regular,107,,,Mid-High,Mid,0.600,0.370,,Mid,steel,42
+KBS,Tour,120,iron,Stiff,120,,,Mid,Low-Mid,0.600,0.370,,Mid-High,steel,40
+KBS,Tour,130,iron,X-Stiff,130,,,Low-Mid,Low,0.600,0.370,,High,steel,40
+KBS,Tour Lite,100,iron,Regular,100,,,Mid-High,Mid-High,0.600,0.370,,Mid,steel,40
+KBS,C-Taper,120,iron,Stiff,119,,,Low-Mid,Low,0.600,0.370,,High,steel,44
+KBS,C-Taper,130,iron,X-Stiff,130,,,Low,Low,0.600,0.370,,High,steel,44
+KBS,C-Taper Lite,110,iron,Stiff,110,,,Mid,Low-Mid,0.600,0.370,,Mid-High,steel,44
