@@ -27,7 +27,7 @@ def detect_club_type(df: pd.DataFrame) -> dict[str, list[int]]:
     Group rows by club type.
 
     If the dataframe has a 'club_type' column, use it.
-    Otherwise, default to 'driver'.
+    Otherwise, default to 'woods'.
     """
     if "club_type" in df.columns:
         groups = {}
@@ -35,11 +35,11 @@ def detect_club_type(df: pd.DataFrame) -> dict[str, list[int]]:
             ct = row["club_type"].strip().lower()
             groups.setdefault(ct, []).append(idx)
         return groups
-    return {"driver": list(df.index)}
+    return {"woods": list(df.index)}
 
 
 CLUB_TYPE_MAP = {
-    "driver": ClubType.DRIVER,
+    "woods": ClubType.WOODS,
     "fairway": ClubType.FAIRWAY,
     "hybrid": ClubType.HYBRID,
     "iron": ClubType.IRON,
@@ -58,7 +58,7 @@ def load_and_normalize(filepath: Path) -> list[ShaftSpec]:
         for manufacturer, mfr_group in df.groupby("manufacturer"):
             type_groups = detect_club_type(mfr_group)
             for type_name, indices in type_groups.items():
-                club_type = CLUB_TYPE_MAP.get(type_name, ClubType.DRIVER)
+                club_type = CLUB_TYPE_MAP.get(type_name, ClubType.WOODS)
                 subset = mfr_group.loc[indices]
                 specs = normalize_dataframe(subset, str(manufacturer), club_type)
                 all_specs.extend(specs)

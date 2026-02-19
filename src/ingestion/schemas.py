@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field, field_validator
 
 
 class ClubType(str, Enum):
-    DRIVER = "driver"
+    WOODS = "woods"
     FAIRWAY = "fairway"
     HYBRID = "hybrid"
     IRON = "iron"

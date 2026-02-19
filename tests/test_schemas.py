@@ -11,7 +11,7 @@ class TestShaftSpec:
         spec = ShaftSpec(
             manufacturer="Project X",
             model="HZRDUS Black",
-            club_type=ClubType.DRIVER,
+            club_type=ClubType.WOODS,
             flex=Flex.STIFF,
             weight_grams=62.0,
             torque_degrees=3.5,
@@ -25,7 +25,7 @@ class TestShaftSpec:
             manufacturer="Fujikura",
             model="Ventus Blue",
             generation="TR",
-            club_type=ClubType.DRIVER,
+            club_type=ClubType.WOODS,
             flex=Flex.X_STIFF,
             weight_grams=67.0,
         )
@@ -43,11 +43,11 @@ class TestShaftSpec:
 
     def test_flex_order(self):
         spec_s = ShaftSpec(
-            manufacturer="Test", model="Test", club_type=ClubType.DRIVER,
+            manufacturer="Test", model="Test", club_type=ClubType.WOODS,
             flex=Flex.STIFF, weight_grams=60.0,
         )
         spec_x = ShaftSpec(
-            manufacturer="Test", model="Test", club_type=ClubType.DRIVER,
+            manufacturer="Test", model="Test", club_type=ClubType.WOODS,
             flex=Flex.X_STIFF, weight_grams=65.0,
         )
         assert spec_s.flex_order < spec_x.flex_order
@@ -55,21 +55,21 @@ class TestShaftSpec:
     def test_invalid_weight_zero(self):
         with pytest.raises(ValidationError):
             ShaftSpec(
-                manufacturer="Test", model="Test", club_type=ClubType.DRIVER,
+                manufacturer="Test", model="Test", club_type=ClubType.WOODS,
                 flex=Flex.STIFF, weight_grams=0,
             )
 
     def test_invalid_weight_negative(self):
         with pytest.raises(ValidationError):
             ShaftSpec(
-                manufacturer="Test", model="Test", club_type=ClubType.DRIVER,
+                manufacturer="Test", model="Test", club_type=ClubType.WOODS,
                 flex=Flex.STIFF, weight_grams=-10,
             )
 
     def test_strips_whitespace(self):
         spec = ShaftSpec(
             manufacturer="  Fujikura  ", model="  Ventus  ",
-            club_type=ClubType.DRIVER, flex=Flex.STIFF, weight_grams=65.0,
+            club_type=ClubType.WOODS, flex=Flex.STIFF, weight_grams=65.0,
         )
         assert spec.manufacturer == "Fujikura"
         assert spec.model == "Ventus"

@@ -106,7 +106,7 @@ Every shaft in the database is normalized to this schema:
 | `manufacturer` | string | Shaft OEM (e.g., "Project X", "Fujikura") |
 | `model` | string | Product line (e.g., "HZRDUS Black", "Ventus Blue") |
 | `generation` | string | Generation/version if applicable |
-| `club_type` | enum | `driver`, `fairway`, `hybrid`, `iron`, `wedge`, `putter` |
+| `club_type` | enum | `woods`, `fairway`, `hybrid`, `iron`, `wedge`, `putter` |
 | `flex` | enum | `Ladies`, `Senior`, `Regular`, `Stiff`, `X-Stiff`, `TX` |
 | `weight_grams` | float | Shaft weight in grams |
 | `length_inches` | float | Raw/uncut length in inches |
